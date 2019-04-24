@@ -6,34 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Hi David - Contact Pages for Leads Generation</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="index,follow" />
-    <link rel="shortcut icon" href="#">
-    <link rel="apple-touch-icon" href="#">
+    
 
-    <!-- Facebook and Twitter Share Informations -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
+    
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800">
     <!-- To enable the modal popup, uncomment the next line -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="contactme/css/select2.min.css">
-    <link rel="stylesheet" href="contactme/css/bootstrap-datepicker.standalone.min.css">
-    <link rel="stylesheet" href="contactme/css/jquery.timepicker.css">
+    <!-- <link rel="stylesheet" href="contactme/css/select2.min.css">
+    <link rel="stylesheet" href="contactme/css/bootstrap-datepicker.standalone.min.css"> -->
+   <!--  <link rel="stylesheet" href="contactme/css/jquery.timepicker.css"> -->
     <link rel="stylesheet" href="contactme/css/contactme-1.4.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- To enable the gallery plugin, uncomment the next line -->
     <!-- <link rel="stylesheet" href="assets/lightgallery/css/lightgallery.min.css"> -->
     <link rel="stylesheet" href="assets/css/jonny-1.2.css">
@@ -62,7 +47,7 @@
             <div class="contain">
                 <div>
                     <div>
-                        <h1 class="logo title" style="font-size:64px; color: white; margin: 30px; ">DAVID</h1>
+                        <h1 class="logo title" style="display: block; margin:50px;">DAVID</h1>
                         <h1 class="title">SAY HELLO<br />TO THE FUTURE</h1>
                         <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                         <!-- Set the data-countdown value with this format: yyyy/mm/dd hh:ii:ss -->
@@ -87,12 +72,13 @@
 								</div>
 							</div> -->
                         <!-- BUTTONS SECTION -->
-                        <div class="buttons centered">
-                            <a href="mailto:mywabinfo@gmail.com" class="icon icon-mail light-green">Contact us</a>
-                        </div>
-                        <div class="row text-center">
+                      <!--   <div class="buttons centered">
+                          <a href="mailto:mywabinfo@gmail.com" class="icon icon-mail light-green">Contact us</a>
+                      </div> -->
 
-                            <div class="col-md-6">
+                        <div class="row text-center mt-200">
+
+                            <div class="col-md-3">
                                 <a class="btn-floating blue accent-1">
                                     <i class="fas fa-phone-volume fa-2x" style="margin-bottom: 6px;"></i>
                                 </a>
@@ -101,6 +87,9 @@
                             </div>
                             
                             <div class="col-md-6">
+                                <a href="https://www.google.com/maps/place/Singapore/@1.2758582,103.5534761,10.75z/data=!4m5!3m4!1s0x31da11238a8b9375:0x887869cf52abf5c4!8m2!3d1.352083!4d103.819836" target="_blank" class="address">21 Jackson BLVD 120<br />LOS ANGELES</a>
+                            </div>
+                             <div class="col-md-3">
                                 <a class="btn-floating blue accent-1">
                                     <i class="fas fa-envelope fa-2x" style="margin-bottom: 6px;"></i>
                                 </a>
@@ -108,7 +97,7 @@
                                 <p class="mb-0">sale@gmail.com</p>
                             </div>
                         </div>
-                        <a href="https://www.google.com/maps/place/Singapore/@1.2758582,103.5534761,10.75z/data=!4m5!3m4!1s0x31da11238a8b9375:0x887869cf52abf5c4!8m2!3d1.352083!4d103.819836" target="_blank" class="address">21 Jackson BLVD 120<br />LOS ANGELES</a>
+                        
                         <div class="social">
                             <!-- <a href="https://www.facebook.com" class="facebook" target="_blank"></a> -->
                             <!-- <a href="https://www.messenger.com" class="messenger" target="_blank"></a> -->
@@ -126,25 +115,25 @@
         <div class="form">
             <div>
                 <div>
-                    <h3>Preorder today our new waterproof smartwatch</h3>
+                    <!-- <h3>Preorder today our new waterproof smartwatch</h3> -->
                     <!-- START - Contact Form -->
-                    <form class="contactMe small" name="contact" method="POST" data-netlify="true">
+                    <form class="contactMe " name="contact" method="POST" data-netlify="true">
                         <section>
                             <div class="form-row">
                                 <div class="title">Your name</div>
-                                <input type="text" name="name" data-displayname="Name" class="field" placeholder="Your name" required>
+                                <input type="text" name="name" class="field" placeholder="Your name" required>
                             </div>
                             <div class="form-row">
                                 <div class="title">Your e-mail</div>
-                                <input type="email" name="email" data-displayname="Email" class="field" placeholder="Your e-mail" required>
+                                <input type="email" name="email" class="field" placeholder="Your e-mail" required>
                             </div>
                             <div class="form-row">
                                 <div class="title">Your phone number</div>
-                                <input type="tel" name="phone" data-displayname="Phone" class="field" placeholder="Your phone number" required>
+                                <input type="tel" name="phone" class="field" placeholder="Your phone number" required>
                             </div>
                             <div class="form-row">
-                                <div class="title">Your phone number</div>
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Message me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="title">Your Message</div>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message me *" rows="6" required="required" data-errsor="Pleae, leave us a message."></textarea>
                             </div>
 
                             <!-- Google reCAPTCHA -->
@@ -155,9 +144,9 @@
                             <!-- To enable Google Invisible reCAPTCHA, uncomment the next line -->
                             <!-- <div class="re-captcha invisible" data-sitekey="YOUR_SITE_KEY_HERE"></div> -->
 
-                            <div class="msg"></div>
+                            <!-- <div class="msg"></div> -->
 
-                            <button class="btn" type="submit" data-sending="Sending...">Send request</button>
+                            <button class="btn" type="submit">Send request</button>
                         </section>
                     </form>
                     <!-- END - Contact Form -->
@@ -201,37 +190,37 @@
 
     <!-- START SHARE PLUGIN CONTENT -->
     <!-- To enable the share plugin, uncomment the next lines -->
-    <section id="share-plugin-content" class="j-hide">
-        <div class="addthis_inline_share_toolbox"></div>
-    </section>
+   <!--  <section id="share-plugin-content" class="j-hide">
+       <div class="addthis_inline_share_toolbox"></div>
+   </section> -->
     <!-- END SHARE PLUGIN CONTENT -->
 
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/modernizr-touch-events.js"></script>
+    <!-- <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/modernizr-touch-events.js"></script> -->
     <!-- To enable the modal popup, uncomment the next line -->
-    <script src="assets/js/bootstrap.min.js"></script>
+   <!--  <script src="assets/js/bootstrap.min.js"></script> -->
     <!-- To enable the countdown, uncomment the next line: -->
     <!-- <script src="assets/js/jquery.countdown.min.js"></script> -->
     <!-- To enable the gallery plugin, uncomment the next line -->
     <!-- <script src="assets/lightgallery/js/lightgallery.min.js"></script> -->
 
-    <script src="contactme/js/weakmap-polyfill.min.js"></script>
-    <script src="contactme/js/formdata.min.js"></script>
-    <script src="contactme/js/bootstrap-datepicker.min.js"></script>
-    <script src="contactme/js/bootstrap-datepicker-lang/en.js"></script>
-    <script src="contactme/js/jquery.timepicker.min.js"></script>
-    <script src="contactme/js/select2.full.min.js"></script>
-    <script src="contactme/js/select2-lang/en.js"></script>
+   <!--  <script src="contactme/js/weakmap-polyfill.min.js"></script>
+   <script src="contactme/js/formdata.min.js"></script>
+   <script src="contactme/js/bootstrap-datepicker.min.js"></script>
+   <script src="contactme/js/bootstrap-datepicker-lang/en.js"></script>
+   <script src="contactme/js/jquery.timepicker.min.js"></script>
+   <script src="contactme/js/select2.full.min.js"></script>
+   <script src="contactme/js/select2-lang/en.js"></script> -->
     <!--[if lt IE 9]><script src="contactme/js/EQCSS-polyfills-1.7.0.min.js"></script><![endif]-->
-    <script src="contactme/js/EQCSS-1.7.0.min.js"></script>
-    <script src="contactme/js/contactme-config.js"></script>
-    <script src="contactme/js/contactme-1.4.js"></script>
+   <!--  <script src="contactme/js/EQCSS-1.7.0.min.js"></script>
+   <script src="contactme/js/contactme-config.js"></script>
+   <script src="contactme/js/contactme-1.4.js"></script> -->
     <!-- To enable Google reCAPTCHA, uncomment the next line: -->
     <!-- <script src="https://www.google.com/recaptcha/api.js?onload=initRecaptchas&render=explicit" async defer></script> -->
 
-    <script src="../../../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59d57c395c2885d0"></script>
+  <!--   <script src="../../../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59d57c395c2885d0"></script> -->
 
-    <script src="assets/js/jonny-1.2.js"></script>
+   <!--  <script src="assets/js/jonny-1.2.js"></script> -->
 </body>
 
 </html>
