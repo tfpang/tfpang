@@ -381,7 +381,7 @@ body {
 
 .jonny .infos .address {
     display: block;
-    
+   
     padding-top: 36px;
     font-size: 20px;
     line-height: 20px;
@@ -394,6 +394,9 @@ body {
     background-image: url(../imgs/pin.png);
 }
 
+.mt-200{
+    margin-top: 200px;
+}
 /*------------------------------------------------------------------
 [4. Buttons]
 */
@@ -758,9 +761,4 @@ body {
     .jonny .infos .description {
         width: 100%;
     }
-}
-
-
-.mt-200{
-    margin-top: 200px;
 }
