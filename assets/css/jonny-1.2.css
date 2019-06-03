@@ -318,28 +318,28 @@ body {
 }
 
 .jonny .infos .logo {
-    max-height: 34px;
+   
     max-width: 100%;
 }
 
 .jonny .infos .title {
-    margin-top: 20px;
+   
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
-    line-height: 66px;
     font-weight: 800;
     color: #FFF;
-    word-break: break-word;
+
 }
 
 .jonny .infos .description {
+    font-family: 'Montserrat', sans-serif;
     margin: 10px auto 0 auto;
     display: block;
     width: 70%;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 25px;
+    line-height: 30px;
     color: #FFF;
-    word-break: break-word;
+    
 }
 
 .jonny .infos .countdown {
@@ -761,4 +761,10 @@ body {
     .jonny .infos .description {
         width: 100%;
     }
+}
+
+
+.main-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
 }
