@@ -768,3 +768,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
 }
+
+.david_description{
+        text-align: justify;
+    margin: 20px auto;
+    font-size: 25px;
+    line-height: 1.6em;
+    border-bottom: solid 1px #aaaab7;
+    border-top: solid 1px #aaaab7;
+    padding: 20px 0px;
+}
